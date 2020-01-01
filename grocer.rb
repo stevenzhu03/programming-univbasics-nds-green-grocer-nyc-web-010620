@@ -91,6 +91,10 @@ def apply_clearance(cart)
   cart
 end
 
+def items_total_cost(i)
+  i[:count] * i[:price]
+end
+
 def checkout(cart, coupons)
   # Consult README for inputs and outputs
   #
